@@ -1,0 +1,65 @@
+h1{
+    font-style: italic;
+    color: #F5D253;
+}
+hr{
+    color: #485bbc;
+    width: 300px;
+    border: 1px solid
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+    margin-left: 400px;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 280px;
+    margin-left: 280px;
+}
+.logos{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 460px;
+    margin-right: 470px;
+    font-weight: bold;
+}
+h2{
+    font-style: italic;
+    color: #1A2248;
+}
+.avis{
+    display: flex;
+}
+.avis-un, .avis-deux, .avis-trois{
+    margin-right : 10%;
+    margin-left : 10%;
+}
+.duree{
+    color: #9C9C9C;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.nom{
+    color: #000090;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 50px;
+}
+button{
+    //display: block
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+    background-color: #5252b9;
+}

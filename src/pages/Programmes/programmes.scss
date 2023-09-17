@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../../public/fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+
+.concept{
+    height: 500px;
+    background-image: url("../../../public/images/programmes.png");
+    color: #F5D253;
+    font-family: 'Roboto';
+    font-size: 90px;
+    hr{
+        color: #5147F5 ;
+    }
+}
+.titre{
+    margin: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 300px;
+    background-color: #FEF95C;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: #1A2248;
+    box-shadow: 2px 2px 2px;
+    font-family: Roboto;
+    font-size: 20px;
+}
+.parent{
+    display: flex;
+    .explication{
+        width: 500px;
+        margin: 50px;
+    }
+}
+.barre{
+    img{
+        height: 250px;
+        width: 400px;
+        margin: 50px;
+        margin-left: 100px;
+    }
+}
+
+

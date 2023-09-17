@@ -1,0 +1,53 @@
+.tarifs{
+    .suivi{
+        background-color: #A39DFA;
+        margin-bottom: 40px;
+        line-height: 20px;
+        height: 30px;
+    }
+    p{
+        text-align: center;
+        margin-left: 30px;
+        font-weight: bold;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    .pack{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 400px 70px 400px;
+        .dix, .vingt{
+            width: 200px;
+            height: 300px;
+            background-color: #A39DFA;
+        }
+    }
+    
+    .clair, .clair2{
+        height: 70px;
+        width: 200px;
+        background-color: #D8D6FF;
+        text-align: center;
+        font-weight: bold;
+        line-height: 60px;
+        font-size: large;
+    }
+    .prix, .mois, .soit{
+        font-weight: bold;
+        text-align: center;
+    }
+    .prix{
+        font-size: 30px;
+        margin-top: 45px;
+    }
+    .mois{
+        margin-top: 50px;
+    }
+    .soit{
+        margin-top: 20px;
+    }
+}
+
+
+
+

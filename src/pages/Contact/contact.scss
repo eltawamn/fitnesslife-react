@@ -1,0 +1,49 @@
+hr{
+    width: 600px;
+}
+h2, p{
+    text-align: center;
+}
+.deux{
+    display: flex;
+    justify-content: center;
+}
+
+.tel, .loc{
+    width: 450px;
+    height: 300px;
+    background-color: #FFE1B5 ;
+    margin: 20px;
+    p{
+        margin-top: 20px;
+    }
+    img{
+        width: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    background-color: #000090 ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 1px ;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0,3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
