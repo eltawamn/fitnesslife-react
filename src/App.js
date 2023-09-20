@@ -6,6 +6,8 @@ import Contact from './pages/Contact/Contact.js';
 import Home from './pages/Home/Home';
 import Programmes from './pages/Programmes/Programmes';
 import Tarifs from './pages/Tarifs/Tarifs.js';
+import Formulaire from './pages/Formulaire.js';
+
 
 
 const App = () => {
@@ -17,6 +19,7 @@ const App = () => {
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Programmes" element={<Programmes/>}/>
+        <Route path="/nous-contacter" element={<Formulaire/>}/>
         <Route path="/Tarifs" element={<Tarifs/>}/>
         <Route path="*" element={<Home/>}/>
       </Route>

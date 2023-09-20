@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './contact.scss'
 
 
@@ -20,7 +21,7 @@ const Contact = () => {
                 <p>2 rue Jacques Lo Lille</p>
             </div>
             </div>
-            <a href='/Formulaire'><button>Nous contacter</button></a>
+            <Link to='/nous-contacter'><button>Nous contacter</button></Link>
         </div>
     )
 }
