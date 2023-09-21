@@ -40,6 +40,7 @@ function Template(){
                 </div>
                 <div className="maps">
                     <h4> Où nous trouver ?</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80985.03434042445!2d2.964497455904694!3d50.63116043470504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579b3256e11%3A0x40af13e81646360!2sLille!5e0!3m2!1sfr!2sfr!4v1695303141204!5m2!1sfr!2sfr" ></iframe>
                     <div className="maps"></div>
                 </div>
                 <div className="three">
