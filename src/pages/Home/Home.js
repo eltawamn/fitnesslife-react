@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './home.scss';
 
 const Home = () => {
@@ -59,7 +60,7 @@ const Home = () => {
             </div>
             </div>
             <div className='bouton'>
-                <button>Rédigez un avis</button>
+                <Link to= '/Avis'><button>Redigez un avis</button></Link>
             </div>
         </div>
     )
