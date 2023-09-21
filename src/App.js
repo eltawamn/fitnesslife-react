@@ -6,7 +6,7 @@ import Contact from './pages/Contact/Contact.js';
 import Home from './pages/Home/Home';
 import Programmes from './pages/Programmes/Programmes';
 import Tarifs from './pages/Tarifs/Tarifs.js';
-import Formulaire from './pages/Formulaire.js';
+import Formulaire from './pages/Formulaire/Formulaire.js';
 import Avis from './pages/Avis/Avis';
 
 

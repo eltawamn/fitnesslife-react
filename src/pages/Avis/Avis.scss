@@ -1,22 +1,30 @@
 h1{
     margin-left: auto;
     margin-right: auto;
-    width: 12em
+    width: 12em;
+    padding-right: 15px;
+    
 }
-#lastName{
-    margin-top: 20px;
-}
+
 #Avis{
+    margin-bottom: 30px;
     margin-top: 20px;
+    background-color: rgba(220, 220, 220, 0.25);
+    width: 200px;
+    height: 40px;
+    border-radius: 24px;
+    border: 0;
 }
+
 .Avis{
     margin-left: auto;
     margin-right: auto;
-    width: 12em
+    width: 12em;
+    margin-top: 20px;
 }
-
-
-
+.rating{
+    margin-bottom: 30px;
+}
 .rating a {
     color: #aaa;
     text-decoration: none;

@@ -26,6 +26,7 @@ const Avis = () => {
             </div>  
             <label htmlFor="Avis">Votre avis</label>
                 <textarea value={Avis} required type='text' name='Avis' id="Avis" onChange={(event) => setLastName(event.target.value)}></textarea>
+                <button>Envoyer</button>
             </div>
             </form>
         </div>
