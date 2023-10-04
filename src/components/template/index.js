@@ -14,7 +14,7 @@ function Template(){
         <nav>
             <ul>
                 <li><Link to = "/" className="accueil" > Accueil</Link></li>
-                <li><Link to = "/Programmes" className="programmes" > Proprammes</Link></li>
+                <li><Link to = "/Concept" className="Concept" > Concept</Link></li>
                 <li><Link to = "/Tarifs" className="tarifs" > Tarifs</Link></li>
                 <li><Link to = "/Contact" className="contact" > Nous contacter</Link></li>
                 <li><Link to = "/About" className="about" > À propos</Link></li>

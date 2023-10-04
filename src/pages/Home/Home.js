@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './home.scss';
 
+
+
 const Home = () => {
     return (
         <div>
@@ -26,6 +28,7 @@ const Home = () => {
             <p>Yoga</p>
             </div>
             <hr></hr>
+            
             <h2>Avis</h2>
             <div className='avis'>
             <div className='avis-un'>
@@ -33,7 +36,7 @@ const Home = () => {
                 <div className='duree'>
                 <p>Il y a un mois</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur. Pellentesque cursus urna pellentesque et dui at. Natoque cras dignissim venenatis proin mi quis. A ut quam tellus viverra eu maecenas sit diam. Tortor nulla sed faucibus montes ullamcorper. Pulvinar ullamcorper adipiscing lectus faucibus dictum tempor. Justo habitasse non eu tristique augue. Luctus viverra condimentum diam et nunc lacus convallis. Pellentesque ipsum id eleifend mattis amet. Habitasse proin egestas nam turpis tempus eget. </p>
+                <p>Ma collaboration avec John en tant que coach sportif a été phénoménale. En un an, il a métamorphosé ma vie. Dès le départ, John a compris mes objectifs personnels, ma condition physique, et mes préoccupations. Son programme d'entraînement sur mesure a produit des résultats remarquables. J'ai perdu du poids, gagné en énergie et en confiance en moi. Sa passion pour la santé et la nutrition est contagieuse. John est plus qu'un coach ; il est un mentor, un motivateur exceptionnel. Toujours ponctuel, il donne 100 % à chaque séance. Je le recommande vivement à quiconque veut transformer sa vie grâce au fitness. </p>
                 <div className='nom'>
                     <p>• Stella N</p>
                 </div>
@@ -43,7 +46,7 @@ const Home = () => {
                 <div className='duree'>
                 <p>Il y a un mois</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur. Pellentesque cursus urna pellentesque et dui at. Natoque cras dignissim venenatis proin mi quis. A ut quam tellus viverra eu maecenas sit diam. Tortor nulla sed faucibus montes ullamcorper. Pulvinar ullamcorper adipiscing lectus faucibus dictum tempor. Justo habitasse non eu tristique augue. Luctus viverra condimentum diam et nunc lacus convallis. Pellentesque ipsum id eleifend mattis amet. Habitasse proin egestas nam turpis tempus eget. </p>
+                <p>J'ai eu la chance de travailler avec le coach sportif Jason et je suis ravi de mon expérience. En quelques mois, il a transformé ma forme physique et ma santé de manière spectaculaire. Jason est plus qu'un coach, il est un mentor passionné par son métier. Ses séances d'entraînement sont variées, stimulantes et adaptées à mes besoins. Il m'a également apporté des conseils nutritionnels précieux. Sa personnalité positive et son soutien constant m'ont motivé à persévérer. Je le recommande vivement à quiconque souhaite atteindre ses objectifs de remise en forme et adopter un mode de vie plus sain </p>
                 <div className='nom'>
                     <p>• Melissa b</p>
                 </div>
@@ -53,7 +56,7 @@ const Home = () => {
                 <div className='duree'>
                 <p>Il y a un mois</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur. Pellentesque cursus urna pellentesque et dui at. Natoque cras dignissim venenatis proin mi quis. A ut quam tellus viverra eu maecenas sit diam. Tortor nulla sed faucibus montes ullamcorper. Pulvinar ullamcorper adipiscing lectus faucibus dictum tempor. Justo habitasse non eu tristique augue. Luctus viverra condimentum diam et nunc lacus convallis. Pellentesque ipsum id eleifend mattis amet. Habitasse proin egestas nam turpis tempus eget. </p>
+                <p>Billy est un coach sportif exceptionnel ! En quelques mois, il a complètement transformé ma vie. Ses séances d'entraînement sont stimulantes et adaptées à mes objectifs personnels. Grâce à sa motivation constante, j'ai atteint des niveaux de forme physique que je n'aurais jamais imaginés. Sa passion pour la santé et la nutrition a également eu un impact énorme sur mes habitudes alimentaires. Billy est bien plus qu'un coach, il est un ami et un mentor qui m'a aidé à surmonter des obstacles physiques et mentaux. Je lui suis profondément reconnaissant pour tout ce qu'il a fait pour moi, et je le recommande chaudement à tous ceux qui recherchent une transformation positive dans leur vie. </p>
                 <div className='nom'>
                     <p>• Francois F</p>
                 </div>
