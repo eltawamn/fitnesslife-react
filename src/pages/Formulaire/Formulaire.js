@@ -14,6 +14,23 @@ const Formulaire = () => {
     const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        fetch('http://localhost:3001/contacts', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                firstName,
+                lastName,
+                phone,
+                email,
+                message
+            })
+        }).catch((error) => {
+            console.log(error)
+        })
+    }
     
     return(
         <div> 
