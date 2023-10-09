@@ -63,4 +63,9 @@ button{
 button:hover{
     background-color: #5252b9;
 }
+@media screen and (max-width: 900px){
+    h2{
+        padding-top: 200px;
+    }
+}
 

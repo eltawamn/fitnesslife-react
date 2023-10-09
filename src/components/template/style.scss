@@ -60,3 +60,28 @@ a, h4{
     display: none;
 }
 
+.menu{
+    display: none;
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        position: absolute;
+        width: 100%;
+        height: 400vh;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1A2248;
+    }
+    li{
+        margin: 20px ;
+        background-color: #1A2248;
+    }
+   
+}
+
