@@ -1,6 +1,6 @@
 header{
     height: 200px;
-    background-color: #565B78;
+    background-color: #1A2248;
     display: flex;
     justify-content: space-between;
     ul{
@@ -65,23 +65,51 @@ a, h4{
     height: 60px;
     width: 60px;
 }
+#ch{
+    display: none;
+}
+#lab{
+    width: 30px;
+    height: 30px;
+    background:linear-gradient(#FFF 0%, #FFF 20%, transparent 21%, transparent 40%, #FFF 41%, #FFF 60%, transparent 61%, transparent 80%, #FFF 81%, #FFF 100% );
+    margin: 50px 50px 0px 50px;
+    margin-left: auto;
+    display: none;
+}
 
 @media screen and (max-width: 900px) {
-    .navbar {
+    nav {
         position: absolute;
         width: 100%;
         height: 400vh;
+       
     }
     ul{
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #1A2248;
+        transform: translate(-1000px,0);
+        opacity: 0.50;
     }
     li{
         margin: 20px ;
         background-color: #1A2248;
+        
     }
-   
+    #ch:checked+ nav{
+        transform: translate(0px,0);
+        transition: all 0.5s ease;;
+    }
+    #ch:checked+ ul{
+        transform: translate(0px,0);
+        transition: all 0.5s ease;;
+    }
+    #lab{
+        display: block;
+    }
+    header{
+        background-color: #1A2248;
+    }
 }
 
