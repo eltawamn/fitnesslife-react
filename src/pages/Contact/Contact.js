@@ -6,7 +6,8 @@ import './contact.scss'
 const Contact = () => {
     return (
         <div>
-            <h2>CONTACTEZ NOUS</h2>
+            <h1>CONTACTEZ NOUS</h1>
+            <h2>Contact</h2>
             <p>Nous sommes disponibles du lundi au samedi de 10h à 19h </p>
             <hr/>
             <div className='deux'>

@@ -34,7 +34,7 @@ function Template(){
                 <div className="two">
                     <h4>Plan du site</h4>
                     <a href="#">Accueil</a>
-                    <a href="#">Programmes</a>
+                    <a href="#">Concept</a>
                     <a href="#">Tarifs</a>
                     <a href="#">À propos</a>
                 </div>

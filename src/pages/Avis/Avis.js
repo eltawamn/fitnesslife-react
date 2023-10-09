@@ -15,27 +15,15 @@ const Avis = () => {
             <h1>Donnez-nous votre avis !</h1>
             <form onSubmit={handleSubmit}>
                 <div className="Avis">
-                    <label htmlFor='nom'>Nom</label>
+                    <label htmlFor='LastName'>Nom</label>
                     <input
                         value={nom}
                         required
                         type='text'
-                        name='nom'
-                        id='nom'
+                        name='LastName'
+                        id='LastName'
                         onChange={(event) => setNom(event.target.value)} // Mettre à jour le nom
                     />
-
-                    <br />
-
-                    <div className="rating">
-                        <label htmlFor='note'>Note</label>
-                        <a href="#5" title="Donner 5 étoiles" onClick={() => setNote(5)}>☆</a>
-                        <a href="#4" title="Donner 4 étoiles" onClick={() => setNote(4)}>☆</a>
-                        <a href="#3" title="Donner 3 étoiles" onClick={() => setNote(3)}>☆</a>
-                        <a href="#2" title="Donner 2 étoiles" onClick={() => setNote(2)}>☆</a>
-                        <a href="#1" title="Donner 1 étoile" onClick={() => setNote(1)}>☆</a>
-                    </div>
-
                     <label htmlFor="avis">Votre avis</label>
                     <input
                         value={avis}
@@ -45,6 +33,15 @@ const Avis = () => {
                         id="avis"
                         onChange={(event) => setAvis(event.target.value)} // Mettre à jour l'avis
                     />
+                    <br />
+                    <div className="rating">
+                        <label htmlFor='note'>Note</label>
+                        <a href="#5" title="Donner 5 étoiles" onClick={() => setNote(5)}>☆</a>
+                        <a href="#4" title="Donner 4 étoiles" onClick={() => setNote(4)}>☆</a>
+                        <a href="#3" title="Donner 3 étoiles" onClick={() => setNote(3)}>☆</a>
+                        <a href="#2" title="Donner 2 étoiles" onClick={() => setNote(2)}>☆</a>
+                        <a href="#1" title="Donner 1 étoile" onClick={() => setNote(1)}>☆</a>
+                    </div>
 
                     <button>Envoyer</button>
                 </div>
