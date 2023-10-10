@@ -12,7 +12,7 @@ const Avis = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        fetch('http://localhost:3001/Avis', {
+        fetch('https://fitnesspark.onrender.com', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -47,7 +47,7 @@ const Avis = () => {
                         required
                         type='text'
                         name='commentaire'
-                        id="commentaire"
+                        id="avis"
                         onChange={(event) => setCommentaire(event.target.value)} // Mettre à jour l'avis
                     />
                     <br />
