@@ -64,8 +64,21 @@ button:hover{
     background-color: #5252b9;
 }
 @media screen and (max-width: 900px){
-    h2{
-        padding-top: 200px;
+    .logo, .logos{
+        display: unset;
+        img{
+            padding-top: 30px ;
+        }
     }
+    .service, .services{
+       flex-direction: column;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .avis{
+       display: flex;
+       flex-direction: column;
+    }
+   
 }
 

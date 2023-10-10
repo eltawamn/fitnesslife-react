@@ -78,6 +78,7 @@ a, h4{
 }
 
 @media screen and (max-width: 900px) {
+    //Header
     nav {
         position: absolute;
         width: 100%;
@@ -110,6 +111,18 @@ a, h4{
     }
     header{
         background-color: #1A2248;
+    }
+    //Footer
+    footer{
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .one, .two, .three{
+        margin: 0;
+    }
+    h4{
+        margin: 0;
     }
 }
 

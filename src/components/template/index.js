@@ -27,16 +27,15 @@ function Template() {
       </section>
       <footer>
         <div className="one">
-          <a href="#">Mentions légales</a>
-          <a href="#">CGU</a>
-          <a href="#">CGV</a>
+          <a><Link to="/">Mentions légales</Link></a>
+          <a><Link to="/cgu">CGU</Link></a>
         </div>
         <div className="two">
           <h4>Plan du site</h4>
-          <a href="#">Accueil</a>
-          <a href="#">Concept</a>
-          <a href="#">Tarifs</a>
-          <a href="#">À propos</a>
+          <a><Link to="/">Accueil</Link></a>
+          <a><Link to="/Concept">Concept</Link></a>
+          <a><Link to="/Tarifs">Tarifs</Link></a>
+          <a><Link to="/About">À propos</Link></a>
         </div>
         <div className="maps">
           <h4>Où nous trouver ?</h4>
@@ -46,9 +45,10 @@ function Template() {
           <div className="maps"></div>
         </div>
         <div className="three">
-          <h4>Contact</h4>
-          <a href="#">Où nous trouver ?</a>
-          <a href="#">FAQ</a>
+          <h4>Adresse</h4>
+          <a>2 rue Jacques Lo Lille</a>
+          <h4>Numero</h4>
+          <a>+33 6 56 56 65</a>
         </div>
       </footer>
     </>

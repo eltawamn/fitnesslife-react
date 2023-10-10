@@ -17,15 +17,15 @@ const About = () => {
             <h2>Notre Équipe</h2>
             <br />
             </p>
-            <ul>
-            <li>Sophie - Votre Expert en Yoga : Sophie est une yogi expérimentée avec une profonde compréhension de la méditation et de la flexibilité. Elle vous guidera à travers des séances apaisantes qui équilibrent le corps et l'esprit, vous aidant à trouver la paix intérieure et la sérénité.</li>
+            
+            <p>Sophie - Votre Expert en Yoga : Sophie est une yogi expérimentée avec une profonde compréhension de la méditation et de la flexibilité. Elle vous guidera à travers des séances apaisantes qui équilibrent le corps et l'esprit, vous aidant à trouver la paix intérieure et la sérénité.</p>
             <br/>
 
-            <li>Maxime - Votre Spécialiste de la Musculation : Maxime est un adepte de la musculation, passionné par la force et l'endurance. Il conçoit des programmes de formation personnalisés pour vous aider à développer une musculature puissante et à atteindre vos objectifs de renforcement.</li>
+            <p>Maxime - Votre Spécialiste de la Musculation : Maxime est un adepte de la musculation, passionné par la force et l'endurance. Il conçoit des programmes de formation personnalisés pour vous aider à développer une musculature puissante et à atteindre vos objectifs de renforcement.</p>
             <br/>
-            <li>Léa - Votre Experte en Pilates et Nutrition : Léa est notre experte en pilates, axée sur le renforcement du noyau et l'amélioration de la posture. Elle vous enseignera les bases de la stabilité et de la flexibilité. De plus, Léa vous donnera des conseils nutritionnels pour optimiser vos résultats.</li>
+            <p>Léa - Votre Experte en Pilates et Nutrition : Léa est notre experte en pilates, axée sur le renforcement du noyau et l'amélioration de la posture. Elle vous enseignera les bases de la stabilité et de la flexibilité. De plus, Léa vous donnera des conseils nutritionnels pour optimiser vos résultats.</p>
             
-            </ul>
+            
             <br/>
             <h2>Notre Mission</h2>
             <br/>

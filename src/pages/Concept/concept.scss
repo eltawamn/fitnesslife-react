@@ -42,5 +42,10 @@
         margin-left: 100px;
     }
 }
+@media screen and (max-width: 900px){
+    .parent{
+        flex-direction: column;
+    }
+}
 
 

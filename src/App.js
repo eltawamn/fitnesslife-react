@@ -8,6 +8,8 @@ import Concept from './pages/Concept/Concept';
 import Tarifs from './pages/Tarifs/Tarifs.js';
 import Formulaire from './pages/Formulaire/Formulaire.js';
 import Avis from './pages/Avis/Avis';
+import Envoyer from './pages/Envoyer';
+import Cgu from './pages/cgu/cgu';
 
 
 
@@ -22,7 +24,9 @@ const App = () => {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Concept" element={<Concept/>}/>
         <Route path="/nous-contacter" element={<Formulaire/>}/>
+        <Route path='/Envoyer' element={<Envoyer/>}/>
         <Route path="/Tarifs" element={<Tarifs/>}/>
+        <Route path='/cgu' element={<Cgu/>}/>
         <Route path="*" element={<Home/>}/>
       </Route>
     </Routes>
