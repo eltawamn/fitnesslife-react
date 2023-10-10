@@ -10,10 +10,10 @@ function Template() {
         <a href="/">
           <img src="/images/logo.png" alt="logo" />
         </a>
-        <nav>
+        <p>BOUGER C'EST VIVRE.</p>
+        
         <label for="ch" id="lab"></label>
         <input type="checkbox" id="ch"/>
-        <div className="fond">
           <ul>
             <li><Link to="/" className="accueil">Accueil</Link></li>
             <li><Link to="/Concept" className="Concept">Concept</Link></li>
@@ -21,8 +21,8 @@ function Template() {
             <li><Link to="/Contact" className="contact">Nous contacter</Link></li>
             <li><Link to="/About" className="about">À propos</Link></li>
           </ul>  
-          </div>  
-        </nav>
+         
+        
         
       </header>
       <section>
