@@ -8,7 +8,24 @@ const handleSubmit = (event) => {
 const Avis = () => {
     const [nom, setNom] = useState(''); // Utiliser un état distinct pour le nom
     const [note, setNote] = useState(''); // Utiliser un état distinct pour la note
-    const [avis, setAvis] = useState(''); // Utiliser un état distinct pour l'avis
+    const [commentaire, setCommentaire] = useState(''); // Utiliser un état distinct pour l'avis
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        fetch('http://localhost:3001/Avis', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                nom,
+                commentaire
+            })
+        }).catch((error) => {
+            console.log(error)
+        })
+    }
+    
+
+
 
     return (
         <div>
@@ -26,12 +43,12 @@ const Avis = () => {
                     />
                     <label htmlFor="avis">Votre avis</label>
                     <input
-                        value={avis}
+                        value={commentaire}
                         required
                         type='text'
-                        name='avis'
-                        id="avis"
-                        onChange={(event) => setAvis(event.target.value)} // Mettre à jour l'avis
+                        name='commentaire'
+                        id="commentaire"
+                        onChange={(event) => setCommentaire(event.target.value)} // Mettre à jour l'avis
                     />
                     <br />
                     <div className="rating">
