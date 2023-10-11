@@ -18,7 +18,7 @@ const Formulaire = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        fetch('https://fitnesspark.onrender.com', {
+        fetch('http://localhost:3001', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
